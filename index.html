@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Group Chat Application</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>    
+    <script defer type="module" src="./js/client.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="./whatsappggroup.png" alt="WhatsApp Group Logo">
+    </nav>
+    <div class="container">
+       <!-- <div class="message left"></div>
+       <div class="message right"></div> -->
+    </div>
+    <div class="send">
+        <form id="message-form">
+            <input id="message-input" type="text" placeholder="Type a message..." required>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+   
+</body>
+</html>
